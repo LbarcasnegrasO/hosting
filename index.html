@@ -27,6 +27,9 @@
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+      <!-- style css sweet alert -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.min.css">
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -347,9 +350,9 @@
               
                </div>
             </div>
-            <div class="col-md-12">
-            <a href="Tienda/index.php"target="_blank" class="read-more">Leer mas</a>
-         </div>
+            <div class="col-md-12 text-center">
+               <button class="btn btn-light text-center" id="leerMas" target="_blank" >Leer mas</button>
+            </div>
          </div>
          
          <div class="Clients_bg_white">
@@ -517,8 +520,11 @@
       <script src="js/bootstrap.bundle.min.js"></script> 
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/arriba.js"></script> 
+      <script src="js/main.js"></script>
       <script src="js/plugin.js"></script> 
-      <!-- sidebar --> 
+      <!-- Sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.min.js"></script>
+    <!-- sidebar --> 
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
       <script src="js/custom.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
@@ -537,8 +543,8 @@
          $(this).removeClass('transition');
          });
          });
+        
          
       </script> 
-      
    </body>
 </html>
