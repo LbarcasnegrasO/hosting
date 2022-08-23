@@ -298,7 +298,7 @@ padding: 1px 0px 1px 0px;
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575px) and (max-width: 360px)  {
     .header {
         padding-bottom: 0px;
         padding-top: 25px;
